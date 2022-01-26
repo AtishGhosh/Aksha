@@ -1,0 +1,61 @@
+/* Theme */
+
+:root, .default, .lightmode {
+    --background-color: #eab9ce;
+    --accent-color: #002d46;
+    --text-color: black;
+    --inverted-text-color: white;
+}
+
+.body {
+    background-color: var(--background-color);
+}
+
+/* Page */
+
+.heading {
+    text-align: center;
+    padding-top: 0.5rem;
+    background-color: var(--accent-color);
+}
+
+.heading-text {
+    font-size: 3rem;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+    color: var(--inverted-text-color);
+}
+
+.row-parent {
+    padding: 0.5rem 1rem 0 1rem;
+}
+
+.row {
+    width: 100%;
+    margin: 0;
+}
+
+.card-parent {
+    padding-top: calc(var(--bs-gutter-x) * .5);;
+    padding-bottom: calc(var(--bs-gutter-x) * .5);;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-img-top {
+    aspect-ratio: 16/9;
+}
+
+.btn-social {
+    padding-top: .25rem;
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    transition-duration: 0.25s;
+}
+
+.btn-social:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
