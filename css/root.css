@@ -49,7 +49,13 @@ body {
 }
 
 .navbar-toggler-icon {
-    background-image: url('/assets/menu.png');
+    background-image: url('/assets/root/menu.png');
+}
+
+/* Page */
+
+.row {
+    width: 100%;
 }
 
 /* Bottombar */
@@ -62,6 +68,17 @@ body {
     text-align: end;
 }
 
+.btn-theme {
+    font-size: small;
+    margin-right: 1rem;
+}
+
+.btn-theme:hover {
+    background-color: var(--background-color);
+    border-color: var(--background-color);
+    transition-duration: 0.25s;
+}
+
 .bottombar-link {
     padding: 0.25rem 0.5rem;
     text-decoration: none;
@@ -71,4 +88,11 @@ body {
 
 .bottombar-link:hover {
     color: var(--background-color);
+}
+
+@media only screen and (max-width: 767.9px) {
+    .navbar-nav {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }   
 }

@@ -26,40 +26,37 @@
     color: var(--inverted-text-color);
 }
 
-.row-parent {
-    padding: 0.5rem 1rem 0 1rem;
-}
-
 .row {
+    justify-content:space-between;
     width: 100%;
     margin: 0;
 }
 
-.card-parent {
-    padding-top: calc(var(--bs-gutter-x) * .5);;
-    padding-bottom: calc(var(--bs-gutter-x) * .5);;
+.row-parent {
+    padding: 2rem;
 }
 
-.card {
-    width: 100%;
+.contact-card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.card-img-top {
-    aspect-ratio: 16/9;
+.btn-contact-card {
+    width: 6rem;
 }
 
-.btn-social {
-    padding-top: .3rem;
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-    transition-duration: 0.25s;
+/* Contect Form */
+
+.form-heading-text {
+    font-size: 2rem;
 }
 
-.btn-social:hover {
-    background-color: var(--accent-color);
-    border-color: var(--accent-color);
+.btn-submit {
+    width: 6rem;
 }
 
 @media only screen and (max-width: 768px) {
-    
+
 }
