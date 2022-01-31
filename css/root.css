@@ -53,6 +53,24 @@ body {
     background-image: url('/assets/root/menu.png');
 }
 
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--accent-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--text-color);
+}
+
 /* Page */
 
 .row {
