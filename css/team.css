@@ -1,15 +1,4 @@
-/* Theme */
-
-:root, .default, .lightmode {
-    --background-color: #eab9ce;
-    --accent-color: #002d46;
-    --text-color: black;
-    --inverted-text-color: white;
-}
-
-.body {
-    background-color: var(--background-color);
-}
+@import url('/css/root.css');
 
 /* Page */
 
@@ -28,11 +17,6 @@
 
 .row-parent {
     padding: 0.5rem 1rem 0 1rem;
-}
-
-.row {
-    width: 100%;
-    margin: 0;
 }
 
 .card-parent {

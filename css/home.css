@@ -1,15 +1,4 @@
-/* Theme */
-
-:root, .default, .lightmode {
-    --background-color: #eab9ce;
-    --accent-color: #002d46;
-    --text-color: black;
-    --inverted-text-color: white;
-}
-
-.body {
-    background-color: var(--background-color);
-}
+@import url('/css/root.css');
 
 /* Header */
 
