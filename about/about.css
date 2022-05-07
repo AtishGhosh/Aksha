@@ -1,0 +1,252 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box ;
+}
+/* Navbar */
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    background: #002d46;
+    height: 80.4px;
+    width: 100%;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    float: right;
+    position: relative;
+    /* left: 400px; */
+    background: inherit;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    background: inherit;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    background: inherit;
+}
+nav ul li a{
+    color: #eab9ce;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background: inherit;
+}
+a.active,a:hover{
+    background: #eab9ce;
+    color: #002d46;
+    transition: .5s;
+}
+.imgbox{
+    color: #eab9ce;
+    font-size: 50px;
+    position: relative;
+    width: auto;
+    height: 80.4px;
+    background: inherit;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* Navbar end */
+
+/* Body */
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+}
+
+.background {
+    background-color: #eab9ce;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Domine', serif;
+    font-size: 3rem;
+    padding-top: 1.5rem;
+}
+
+.content {
+    padding: 0;
+}
+
+.team-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.row {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.team-img1 {
+    border: 2px solid white;
+    border-radius: 2.5%;
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    background-image: url('pictures/udvas.jpeg');
+    background-color: transparent;
+    background-size: cover;
+}
+.team-img2 {
+    border: 2px solid white;
+    border-radius: 2.5%;
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    background-image: url('pictures/shreyosi.jpeg');
+    background-size: cover;
+}
+
+.team-img3 {
+    border: 2px solid white;
+    border-radius: 2.5%;
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    background-image: url('pictures/tulika.jpeg');
+    background-size: cover;
+}
+.team-img4 {
+    border: 2px solid white;
+    border-radius: 2.5%;
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    background-image: url('pictures/atish.jpeg');
+    background-size: cover;
+}
+.team-img5 {
+    border: 2px solid white;
+    border-radius: 2.5%;
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    background-image: url('pictures/dattatraya.jpeg');
+    background-size: cover;
+}
+.team-img7 {
+    border: 2px solid white;
+    border-radius: 2.5%;
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    background-image: url('pictures/yagyaseni.png');
+    background-size: cover;
+}
+.team-img10 {
+    border: 2px solid white;
+    border-radius: 2.5%;
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    background-image: url('pictures/sarmistha.png');
+    background-size: cover;
+    background-position: 10px ;
+
+}
+
+.row{
+    background-color: #eab9ce;
+}
+
+
+.team-overlay {
+    border-radius: 2.5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: transparent;
+    transition: 0.25s ease;
+}
+
+.team-overlay:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+    width: 30%;
+    }
+    }
+
+/* Bottombar */
+
+.bottombar {
+    background-color: #eab9ce;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: var(--bottombar-filter);
+    -webkit-filter: var(--bottombar-filter);
+}
+
+.bottombar-brand {
+    width: 40%;
+    display: inline-block;
+}
+
+.bottombar-text {
+    width: 50%;
+    text-align: end;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    color: black;
+}
+
+.social-group {
+    margin: 1rem 0;
+}
+
+.social-icon {
+    margin: 1rem;
+    color: black;
+}
+
+#fb-icon:hover {
+    color: #4267B2;
+    filter: var(--bottombar-filter);
+}
+
+#ig-icon:hover {
+    color: #8a3ab9;
+    filter: var(--bottombar-filter);
+}
+
+#tw-icon:hover {
+    color: #1DA1F2;
+    filter: var(--bottombar-filter);
+}
+
+#wa-icon:hover {
+    color: #128C7E;
+    filter: var(--bottombar-filter);
+}

@@ -1,0 +1,160 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box ;
+    background: #eab9ce;
+}
+
+/* Navbar */
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    background: #002d46;
+    height: 80.4px;
+    width: 100%;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    position: relative;
+    background: inherit;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    background: inherit;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    background: inherit;
+}
+nav ul li a{
+    color: #eab9ce;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background: inherit;
+}
+a.active,a:hover{
+    background: #eab9ce;
+    color: #002d46;
+    transition: .5s;
+}
+.imgbox{
+    color: #eab9ce;
+    font-size: 50px;
+    position: relative;
+    width: auto;
+    height: 80.4px;
+    background: inherit;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* Navbar end */
+
+.contact
+{
+    position: relative;
+    min-height: 100vh;
+    /*padding: 50px 100px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eab9ce;
+}
+.contact .content
+{
+    padding-top: 10px;
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2
+{
+    font-size: 36px;
+    font-weight: 500;
+    color: #002d46;
+}
+.contact .content p
+{
+    font-weight: 300;
+    color: #002d46;
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactInfo .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #002d46;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3
+{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.container .contactInfo .box .text p
+{
+    margin-bottom: 0;
+}
+.container .ContactForm .card
+{
+    background: #002d46;
+}
+.container .ContactForm .card .card-body
+{
+    background: #002d46;
+}
+.container .ContactForm .card .card-body .card-title
+{
+    color: #eab9ce;
+    background: #002d46;
+}
+.container .ContactForm .card .card-body .card-title .mb-4
+{
+    
+    background: #002d46;
+}

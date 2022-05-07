@@ -1,114 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Head -->
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AKSHA Foundation</title>
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <!-- CSS -->
-    <link rel="stylesheet" href="/css/home.css">
-    <!-- JS -->
-</head>
-
-<!-- Body -->
-<body class="body">
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/">AKSHA Foundation</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-link" href="/team/">Our Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-link" href="/projects/">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-link" href="/contact/">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet"> 
+        <title>AKSHA Foundation</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="Assets/favicon.png">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="/home.css">
+    </head>
+    <body>
+      <!-- Navbar -->
+      <nav>
+        <div class="imgbox">
+           AKSHA Foundation
+          </div>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="whatsnew/index.html">Projects</a></li>
+            <li><a href="whatsnew/index.html">Get Involved</a></li>
+            <li><a href="whatsnew/index.html">Publications</a></li>
+            <li><a href="/about/index.html">Our Team</a></li>
+            <li><a href="contact/index.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Content -->
+      <div class="logo">
+        <img src="/Assets/favicon.png">
+        <div class="fullname">
+          <li>A</li>
+          <li>K</li>
+          <li>S</li>
+          <li><a>H</a></li>
+          <li><a>A</a></li>
         </div>
-    </nav>
-
-    <!-- Header -->
-    <div class="name" id="name-parent">
-        <div class="letters">
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" id="collapse-a1-btn"
-                data-bs-target="#collapse-a1" aria-expanded="false" aria-controls="collapse-a1">
-                A
-            </button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" id="collapse-k2-btn"
-                data-bs-target="#collapse-k2" aria-expanded="false" aria-controls="collapse-k2">
-                K
-            </button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" id="collapse-s3-btn"
-                data-bs-target="#collapse-s3" aria-expanded="false" aria-controls="collapse-s3">
-                S
-            </button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" id="collapse-h4-btn"
-                data-bs-target="#collapse-h4" aria-expanded="false" aria-controls="collapse-h4">
-                H
-            </button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" id="collapse-a5-btn"
-                data-bs-target="#collapse-a5" aria-expanded="false" aria-controls="collapse-a5">
-                A
-            </button>
-        </div>
-        <div class="collapse collapse-name" id="collapse-a1" data-bs-parent="#name-parent">
-            <div class="card card-body">
-                A
-            </div>
-        </div>
-        <div class="collapse collapse-name" id="collapse-k2" data-bs-parent="#name-parent">
-            <div class="card card-body">
-                K
-            </div>
-        </div>
-        <div class="collapse collapse-name" id="collapse-s3" data-bs-parent="#name-parent">
-            <div class="card card-body">
-                S
-            </div>
-        </div>
-        <div class="collapse collapse-name" id="collapse-h4" data-bs-parent="#name-parent">
-            <div class="card card-body">
-                H
-            </div>
-        </div>
-        <div class="collapse collapse-name" id="collapse-a5" data-bs-parent="#name-parent">
-            <div class="card card-body">
-                A
-            </div>
-        </div>
-    </div>
-    <div>
-        <p>
-            Test text.
-        </p>
-    </div>
-</body>
-
+      </div>
+    </body>
 </html>

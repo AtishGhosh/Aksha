@@ -1,0 +1,10 @@
+.try{
+    display: flex;
+    
+}
+#btn, #btn:hover, #btn:active, #btn:focus{
+    background-color: transparent;
+    border-color: transparent;
+    color: black;
+    box-shadow: none;
+}

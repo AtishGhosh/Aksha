@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.expand{
+    background-color: #d66d6d;
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    padding: 20px;
+}
+.box{
+    background-color: #66d6d6;
+    height: 100px;
+    padding: 25px;
+    border: #d63d6d solid 3px;
+    flex: 1;
+    transition: 1s;
+}
+.box:hover{
+    flex-direction: column;
+    flex: 4;
+}
